@@ -73,7 +73,7 @@ const ForgetPassword = () => {
               </Form.Item>
 
               <Form.Item>
-                <button loading={isLoading} border type="submit" className="w-full h-[44px] bg-[#003399] text-white py-2 rounded-md">
+                <button loading={isLoading} border type="submit" className="w-full h-[44px] bg-[#1EB9C6] text-white py-2 rounded-md">
                   Stuur
                 </button>
               </Form.Item>
