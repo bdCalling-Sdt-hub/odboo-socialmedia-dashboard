@@ -51,36 +51,54 @@ const Header = ({ toggleSidebar }) => {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex space-x-40 mx-auto">
+      <div className="flex space-x-10 mx-auto">
         <Link
           to="/"
-          className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/") ? "border-b-2 border-[#C2F84D]" : ""}`}
+          className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/") ? "border border-[#1EB9C6]" : ""}`}
         >
-          Overview
+          Overview,Überblick
         </Link>
         <Link
-          to="/session"
+          to="/Customer"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/session") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
-          Sessions
+          Customer,Kunde 
         </Link>
         <Link
-          to="/profile"
+          to="/Company"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/profile") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
-          Profile
+          Company,Unternehmen 
         </Link>
         <Link
-          to="/user"
+          to="/ Personal Provider"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
-          Users
+           Personal Provider, Persönlicher Anbieter 
+        </Link>
+        <Link
+          to="/ Services"
+          className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
+        >
+           Services, Dienstleistungen 
+        </Link>
+        <Link
+          to="/ Bookings"
+          className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
+        >
+           Bookings, Buchungen  
+        </Link>
+        <Link
+          to="/ Transactions"
+          className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
+        >
+           Transactions, Transaktionen   
         </Link>
         <Link
           to="/setting"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/setting") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
-          Settings
+          Settings,Einstellungen 
         </Link>
       </div>
 

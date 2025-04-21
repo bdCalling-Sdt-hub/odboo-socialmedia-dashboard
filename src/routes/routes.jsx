@@ -10,6 +10,7 @@ import SessionDetailsPage from "../page/SessionDetails/SessopmDeatailsPage";
 import ProfileSettingsPage from "../page/ProfileSetting/ProfileSettingPage";
 import UserPage from "../page/Users/UsersPage";
 import SettingPage from "../page/setting/SettingPage";
+import CoustomerPage from "../page/Coustomer/CoustomerPage";
 
 const router = createBrowserRouter([
   {
@@ -27,8 +28,8 @@ const router = createBrowserRouter([
         element: <OverviewPage />,
       },
       {
-        path:"/session",
-        element:<SessionPage/>
+        path:"/Customer",
+        element:<CoustomerPage/>
       },
       {
         path:"/Analisiys",
