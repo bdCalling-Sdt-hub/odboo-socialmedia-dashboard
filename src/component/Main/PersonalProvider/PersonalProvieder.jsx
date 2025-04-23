@@ -9,9 +9,9 @@ const PersonalProvider = () => {
     const [isBlockModalOpen, setIsBlockModalOpen] = useState(false);
     const [selectedProvider, setSelectedProvider] = useState(null);
     const [providers, setProviders] = useState([
-        {image:provider, name: 'Anika Alam', email: 'abc@gmail.com', totalService: 'Anika', dateJoined: '2 March, 2025', totalBookings: 12, status: 'Aktiv', image: 'https://via.placeholder.com/150' },
-        { name: 'Khairul Beshar', email: 'khairul@gmail.com', totalService: 170, dateJoined: '2 March, 2025', totalBookings: 14, status: 'Aktiv', image: 'https://via.placeholder.com/150' },
-        { name: 'ami Beshar', email: 'ami@gmail.com', totalService: 170, dateJoined: '2 March, 2025', totalBookings: 14, status: 'Aktiv', image: 'https://via.placeholder.com/150' },
+        {image:provider, name: 'Anika Alam', email: 'abc@gmail.com', totalService: 'Anika', dateJoined: '2 March, 2025', totalBookings: 12, status: 'Active', image: 'https://via.placeholder.com/150' },
+        { name: 'Khairul Beshar', email: 'khairul@gmail.com', totalService: 170, dateJoined: '2 March, 2025', totalBookings: 14, status: 'Active', image: 'https://via.placeholder.com/150' },
+        { name: 'ami Beshar', email: 'ami@gmail.com', totalService: 170, dateJoined: '2 March, 2025', totalBookings: 14, status: 'Active', image: 'https://via.placeholder.com/150' },
     ]);
 
     const handleOpenModal = (provider) => {
