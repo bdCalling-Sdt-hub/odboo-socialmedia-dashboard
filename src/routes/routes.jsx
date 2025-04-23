@@ -11,6 +11,8 @@ import ProfileSettingsPage from "../page/ProfileSetting/ProfileSettingPage";
 import UserPage from "../page/Users/UsersPage";
 import SettingPage from "../page/setting/SettingPage";
 import CoustomerPage from "../page/Coustomer/CoustomerPage";
+import Company from "../component/Main/Company/Company";
+import CompanyPage from "../page/Company/ComapnyPage";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:"/Customer",
         element:<CoustomerPage/>
+      },
+      {
+        path:"/company",
+        element:<CompanyPage/>
       },
       {
         path:"/Analisiys",
