@@ -71,7 +71,7 @@ const Header = ({ toggleSidebar }) => {
           Company,Unternehmen 
         </Link>
         <Link
-          to="/ Personal Provider"
+          to="/personal-provider"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
            Personal Provider, Persönlicher Anbieter 
