@@ -71,7 +71,7 @@ const Company = () => {
                                 </td>
 
                                 <td>
-                                    <Link to="">
+                                    <Link to="/company-provider">
                                         <button
                                             className="text-[#1EB9C6] hover:text-teal-700"
 
