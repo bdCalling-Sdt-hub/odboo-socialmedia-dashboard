@@ -15,6 +15,8 @@ import Company from "../component/Main/Company/Company";
 import CompanyPage from "../page/Company/ComapnyPage";
 import CompanyProviderPage from "../page/CompanyProvide/CompanyProvidePage";
 import PersonalProviderPage from "../page/PersonalProvider/PersonalProviderPage";
+import ServicePage from "../page/Service/ServicePage";
+import AddServicePage from "../page/AddService/AddServicePage";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
       {
         path:"/personal-provider",
         element:<PersonalProviderPage/>
+      },
+      {
+        path:"/service",
+        element:<ServicePage/>
+      },
+      {
+        path:"/add-service",
+        element:<AddServicePage/>
       },
       {
         path:"/Analisiys",
