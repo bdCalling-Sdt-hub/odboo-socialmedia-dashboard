@@ -17,6 +17,7 @@ import CompanyProviderPage from "../page/CompanyProvide/CompanyProvidePage";
 import PersonalProviderPage from "../page/PersonalProvider/PersonalProviderPage";
 import ServicePage from "../page/Service/ServicePage";
 import AddServicePage from "../page/AddService/AddServicePage";
+import BookingPage from "../page/Booking/BookingPage";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
       {
         path:"/add-service",
         element:<AddServicePage/>
+      },
+      {
+        path:"/booking",
+        element:<BookingPage/>
       },
       {
         path:"/Analisiys",

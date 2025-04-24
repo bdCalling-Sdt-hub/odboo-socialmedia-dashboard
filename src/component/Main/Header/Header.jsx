@@ -83,7 +83,7 @@ const Header = ({ toggleSidebar }) => {
            Services, Dienstleistungen 
         </Link>
         <Link
-          to="/ Bookings"
+          to="/booking"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
            Bookings, Buchungen  
