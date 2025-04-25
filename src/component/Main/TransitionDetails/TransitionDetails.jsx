@@ -60,7 +60,7 @@ const TransitionDetails = () => {
                         <img src={user} className='w-40 h-40 rounded-full'></img>
                     </div>
                     <div className=' ml-2'>
-                        <span className='text-2xl font-bold'>TO:</span>
+                        <span className='text-2xl font-bold pb-5'>TO:</span>
                         <p className='text-md'>User Name</p>
                         <h2 className='text-2xl font-bold'>mr.provider</h2>
                         <br />
@@ -77,10 +77,9 @@ const TransitionDetails = () => {
                 </div>
                 <div>
                     <p >Role</p>
-                    <h1 className='text-xl text-black '>Coustomer</h1>
+                    <h1 className='text-xl text-black font-bold'>Admin</h1>
                     <br />
-                    <p>Reason</p>
-                    <h1 className='text-xl text-black '>Subscription Purchase</h1>
+                     
                 </div>
 
 
