@@ -1,4 +1,4 @@
-// src/components/TransactionList.jsx
+// // src/components/TransactionList.jsx
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -18,16 +18,16 @@ const TransactionList = () => {
         <div className="w-full container mx-auto p-8">
             <h1 className="text-3xl font-semibold mb-6">All Transaction List</h1>
             <div className="overflow-x-auto bg-white shadow-md rounded-lg">
-                <table className="min-w-full table-auto">
-                    <thead className="bg-teal-500 text-white">
+                <table className="min-w-full ">
+                    <thead className="bg-[#1EB9C6] text-white">
                         <tr>
-                            <th className="py-2 px-4">User Name</th>
-                            <th className="py-2 px-4">Provider Name</th>
-                            <th className="py-2 px-4">Service Name</th>
-                            <th className="py-2 px-4">Subscription Package Name</th>
-                            <th className="py-2 px-4">Amount</th>
-                            <th className="py-2 px-4">Date</th>
-                            <th className="py-2 px-4">Actions</th>
+                            <th className="py-2 px-4 text-left">User Name</th>
+                            <th className="py-2 px-4 text-left">Provider Name</th>
+                            <th className="py-2 px-4 text-left">Service Name</th>
+                            <th className="py-2 px-4 text-left">Subscription Package Name</th>
+                            <th className="py-2 px-4 text-left">Amount</th>
+                            <th className="py-2 px-4 text-left">Date</th>
+                            <th className="py-2 px-4 text-left">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -54,3 +54,11 @@ const TransactionList = () => {
 };
 
 export default TransactionList;
+
+
+
+
+
+// src/components/TransactionList.jsx
+
+
