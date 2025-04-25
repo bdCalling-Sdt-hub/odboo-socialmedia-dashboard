@@ -1,6 +1,7 @@
 // src/components/TransactionList.jsx
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TransactionList = () => {
     const transactions = [
@@ -38,9 +39,11 @@ const TransactionList = () => {
                                 <td className="py-2 px-4">{transaction.subscriptionPackage}</td>
                                 <td className="py-2 px-4">{transaction.amount}</td>
                                 <td className="py-2 px-4">{transaction.date}</td>
-                                <td className="py-2 px-4 text-center">
-                                    <button className="text-teal-600 hover:text-teal-800">👁️</button>
-                                </td>
+                                <Link to='/transcation-details'>
+                                    <td className="py-2 px-4 text-center">
+                                        <button className="text-teal-600 hover:text-teal-800">👁️</button>
+                                    </td>
+                                </Link>
                             </tr>
                         ))}
                     </tbody>

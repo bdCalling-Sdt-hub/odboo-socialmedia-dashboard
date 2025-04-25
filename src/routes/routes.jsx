@@ -19,6 +19,7 @@ import ServicePage from "../page/Service/ServicePage";
 import AddServicePage from "../page/AddService/AddServicePage";
 import BookingPage from "../page/Booking/BookingPage";
 import TransactionPage from "../page/Transaction/Transactionpage";
+import TransitionDetailsPage from "../page/TransitionDetails/TransitionDetails";
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path:"/transcation",
         element:<TransactionPage/>
+      },
+      {
+        path:"/transcation-details",
+        element:<TransitionDetailsPage/>
       },
       {
         path:"/Analisiys",
