@@ -89,7 +89,7 @@ const Header = ({ toggleSidebar }) => {
            Bookings, Buchungen  
         </Link>
         <Link
-          to="/ Transactions"
+          to="/transcation"
           className={`text-gray-500 font-bold hover:text-black ${isActiveLink("/user") ? "border-b-2 border-[#C2F84D]" : ""}`}
         >
            Transactions, Transaktionen   

@@ -18,6 +18,7 @@ import PersonalProviderPage from "../page/PersonalProvider/PersonalProviderPage"
 import ServicePage from "../page/Service/ServicePage";
 import AddServicePage from "../page/AddService/AddServicePage";
 import BookingPage from "../page/Booking/BookingPage";
+import TransactionPage from "../page/Transaction/Transactionpage";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path:"/booking",
         element:<BookingPage/>
+      },
+      {
+        path:"/transcation",
+        element:<TransactionPage/>
       },
       {
         path:"/Analisiys",
