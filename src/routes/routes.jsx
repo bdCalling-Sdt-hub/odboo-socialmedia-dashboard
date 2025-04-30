@@ -24,6 +24,8 @@ import GeneralSettingPage from "../page/setting/GeneralSetting/GeneralSettingPag
 import EditeProfilePage from "../page/setting/EditeProfile/EditeProfilePage";
 import ChangePasswordPage from "../page/setting/ChangePassword/ChangePasswordPage";
 import AboutPage from "../page/setting/AboutUs/AboutPage";
+import TramsConditonPage from "../page/setting/TramsCondition/TramsConditionPage";
+import PrivacyPolicyPage from "../page/setting/PrivacyPolicy/PrivacyPolicyPage";
 
 const router = createBrowserRouter([
   {
@@ -108,6 +110,14 @@ const router = createBrowserRouter([
       {
         path:'/about-us',
         element:<AboutPage/>
+      },
+      {
+        path:'/trams-condition',
+        element:<TramsConditonPage/>
+      },
+      {
+        path:'/privacy-policy',
+        element:<PrivacyPolicyPage/>
       },
 
 

@@ -274,8 +274,8 @@ function Setting() {
                     <Link to='/general-setting'> <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">General Settings</button></Link>
                     <Link to='/change-password'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">Password Change</button></Link>
                     <Link to='/about-us'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">About Us</button></Link>
-                    <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Terms & Condition</button>
-                    <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Privacy Policy</button>
+                    <Link to='/trams-condition'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">Terms & Condition</button></Link>
+                   <Link to='/privacy-policy'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">Privacy Policy</button></Link>
                 </div>
             </div>
 
