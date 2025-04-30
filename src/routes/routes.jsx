@@ -23,6 +23,7 @@ import TransitionDetailsPage from "../page/TransitionDetails/TransitionDetails";
 import GeneralSettingPage from "../page/setting/GeneralSetting/GeneralSettingPage";
 import EditeProfilePage from "../page/setting/EditeProfile/EditeProfilePage";
 import ChangePasswordPage from "../page/setting/ChangePassword/ChangePasswordPage";
+import AboutPage from "../page/setting/AboutUs/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +104,10 @@ const router = createBrowserRouter([
       {
         path:'/change-password',
         element:<ChangePasswordPage/>
+      },
+      {
+        path:'/about-us',
+        element:<AboutPage/>
       },
 
 
