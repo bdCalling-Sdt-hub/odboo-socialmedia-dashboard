@@ -270,7 +270,7 @@ function Setting() {
 
             <div className="p-4">
                 <div className="space-y-4">
-                    <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Subscription</button>
+                    <Link to='/subscription'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Subscription</button></Link>
                     <Link to='/general-setting'> <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">General Settings</button></Link>
                     <Link to='/change-password'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">Password Change</button></Link>
                     <Link to='/about-us'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">About Us</button></Link>

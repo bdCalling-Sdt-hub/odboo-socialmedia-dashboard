@@ -26,6 +26,8 @@ import ChangePasswordPage from "../page/setting/ChangePassword/ChangePasswordPag
 import AboutPage from "../page/setting/AboutUs/AboutPage";
 import TramsConditonPage from "../page/setting/TramsCondition/TramsConditionPage";
 import PrivacyPolicyPage from "../page/setting/PrivacyPolicy/PrivacyPolicyPage";
+import SubscriptionPage from "../page/setting/Subsciption/SubscriptionPage";
+import AddSubscriptionPage from "../page/setting/AddSubscription/AddSubscriptionPage";
 
 const router = createBrowserRouter([
   {
@@ -118,6 +120,18 @@ const router = createBrowserRouter([
       {
         path:'/privacy-policy',
         element:<PrivacyPolicyPage/>
+      },
+      {
+        path:'/privacy-policy',
+        element:<PrivacyPolicyPage/>
+      },
+      {
+        path:'/subscription',
+        element:<SubscriptionPage/>
+      },
+      {
+        path:'/add-subscription',
+        element:<AddSubscriptionPage/>
       },
 
 
