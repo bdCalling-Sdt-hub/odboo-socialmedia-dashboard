@@ -21,6 +21,7 @@ import BookingPage from "../page/Booking/BookingPage";
 import TransactionPage from "../page/Transaction/Transactionpage";
 import TransitionDetailsPage from "../page/TransitionDetails/TransitionDetails";
 import GeneralSettingPage from "../page/setting/GeneralSetting/GeneralSettingPage";
+import EditeProfilePage from "../page/setting/EditeProfile/EditeProfilePage";
 
 const router = createBrowserRouter([
   {
@@ -93,6 +94,10 @@ const router = createBrowserRouter([
       {
         path:'/general-setting',
         element:<GeneralSettingPage/>
+      },
+      {
+        path:'/edite-profile',
+        element:<EditeProfilePage/>
       },
 
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function GeneralSetting() {
   const [username, setUsername] = useState('Anika Alam');
@@ -36,9 +37,11 @@ function GeneralSetting() {
               />
             </div>
           </div>
-          <button className="mt-6 w-full py-2 bg-[#1EB9C6] text-white rounded-md hover:bg-[#346b70]">
-            Edit Profile
-          </button>
+          <Link to="/edite-profile">
+            <button className="mt-6 w-full py-2 p-3 bg-[#1EB9C6] text-white rounded-md hover:bg-[#346b70]">
+              Edit Profile
+            </button>
+          </Link>
         </div>
       </div>
     </div>
