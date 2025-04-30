@@ -22,6 +22,7 @@ import TransactionPage from "../page/Transaction/Transactionpage";
 import TransitionDetailsPage from "../page/TransitionDetails/TransitionDetails";
 import GeneralSettingPage from "../page/setting/GeneralSetting/GeneralSettingPage";
 import EditeProfilePage from "../page/setting/EditeProfile/EditeProfilePage";
+import ChangePasswordPage from "../page/setting/ChangePassword/ChangePasswordPage";
 
 const router = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
       {
         path:'/edite-profile',
         element:<EditeProfilePage/>
+      },
+      {
+        path:'/change-password',
+        element:<ChangePasswordPage/>
       },
 
 

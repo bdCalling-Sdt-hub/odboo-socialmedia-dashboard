@@ -272,7 +272,7 @@ function Setting() {
                 <div className="space-y-4">
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Subscription</button>
                     <Link to='/general-setting'> <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">General Settings</button></Link>
-                    <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Password Change</button>
+                    <Link to='/change-password'><button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">Password Change</button></Link>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">About Us</button>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Terms & Condition</button>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Privacy Policy</button>
