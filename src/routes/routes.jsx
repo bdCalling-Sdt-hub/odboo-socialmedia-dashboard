@@ -20,6 +20,7 @@ import AddServicePage from "../page/AddService/AddServicePage";
 import BookingPage from "../page/Booking/BookingPage";
 import TransactionPage from "../page/Transaction/Transactionpage";
 import TransitionDetailsPage from "../page/TransitionDetails/TransitionDetails";
+import GeneralSettingPage from "../page/setting/GeneralSetting/GeneralSettingPage";
 
 const router = createBrowserRouter([
   {
@@ -88,7 +89,11 @@ const router = createBrowserRouter([
       {
         path:'/setting',
         element:<SettingPage/>
-      }
+      },
+      {
+        path:'/general-setting',
+        element:<GeneralSettingPage/>
+      },
 
 
 

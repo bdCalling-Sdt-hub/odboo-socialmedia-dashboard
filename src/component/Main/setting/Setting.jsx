@@ -262,15 +262,16 @@
 
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Setting() {
     return (
         <div className="w-full container mx-auto ">
-            
+
             <div className="p-4">
                 <div className="space-y-4">
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Subscription</button>
-                    <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">General Settings</button>
+                    <Link to='/general-setting'> <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300 mt-5">General Settings</button></Link>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Password Change</button>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">About Us</button>
                     <button className="w-full text-left bg-blue-200 p-2 rounded-md hover:bg-blue-300">Terms & Condition</button>
@@ -278,7 +279,7 @@ function Setting() {
                 </div>
             </div>
 
-           
+
 
         </div>
     );
